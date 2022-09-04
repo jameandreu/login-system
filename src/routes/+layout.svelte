@@ -34,19 +34,6 @@
 			height: 100vh;
 			font-family: var(--font-serif);
 			background-color: pink;
-			.someDiv {
-				height: 100%;
-				display: flex;
-				justify-content: space-between;
-				align-items: center;
-
-				border: 1px solid red;
-				&__insideDiv {
-					width: 3rem;
-					height: 2rem;
-					background-color: aqua;
-				}
-			}
 		}
 	}
 </style>
